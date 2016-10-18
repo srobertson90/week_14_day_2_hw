@@ -13,11 +13,10 @@ var ChartBox = React.createClass({
       console.log("request has loaded");
       var jsonString = request.responseText;
       var data = JSON.parse(jsonString);
-      // this.setState({
-      //   countries: data
-      // });
-      console.log(data);
-    }/*.bind(this);*/
+      this.setState({
+        songs: data.feed.entry
+      });
+    }.bind(this);
     request.send();
   },
 
