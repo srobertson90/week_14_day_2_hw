@@ -1,4 +1,5 @@
 var React = require('react');
+var ChartDetail = require('./ChartDetail');
 
 var ChartBox = React.createClass({
   getInitialState: function(){
@@ -24,6 +25,7 @@ var ChartBox = React.createClass({
     return(
       <div id="main_container">
         <h2>Itunes and stuff</h2>
+        <ChartDetail songs={this.state.songs}/>
       </div>
       )
   }

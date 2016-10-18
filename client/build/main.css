@@ -5,3 +5,12 @@ body {
 #main_container {
   background-color: red;
 }
+
+#chart {
+  background-color: green;
+  margin: 10%;
+}
+
+.song_detail {
+  background-color: yellow;
+}
