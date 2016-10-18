@@ -22,7 +22,9 @@ var ChartBox = React.createClass({
 
   render: function(){
     return(
-      <h2>Itunes and stuff</h2>
+      <div id="main_container">
+        <h2>Itunes and stuff</h2>
+      </div>
       )
   }
 
